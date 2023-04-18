@@ -9,6 +9,8 @@ namespace BlazorApp1.Classes
         public string LastName { get; set; }
         public Date Birth { get; set; }
         public Decimal Salary { get; set; }
+        public Project Project { get; set; }
+        public int Project_Id{ get; set; }
 
     }
 }
